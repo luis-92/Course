@@ -11,3 +11,7 @@ despues agregar los certificados de loadrunner, existen dos path por que las dif
 https://admhelp.microfocus.com/lr/en/24.1-24.3/help/WebHelp/Content/Controller/toc-TLS-comm.htm#mt-item-1
 
 cabe aclarar que primero instale el de vugen y luego el de loadrunner de la otra version que era seguir los mismos pasos que el de vugen y no funciono asi que este ultimo deberia ayduar este es con la version CE 24.1 que es la version de community 
+
+
+Cualquier script que se cree tiene una extension .c que significa que esta creado en lenguaje c
+
