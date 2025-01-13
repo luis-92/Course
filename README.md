@@ -15,3 +15,29 @@ cabe aclarar que primero instale el de vugen y luego el de loadrunner de la otra
 
 Cualquier script que se cree tiene una extension .c que significa que esta creado en lenguaje c
 
+se tienen que crear diferentes acciones en el panel para describir cada cosa que hara el usuario por ejemplo puede quedar como 
+
+"Login"
+"Book flight"
+"LogOff"
+
+Aunque en realidad hay mcuahs formass de organizar los scriots
+
+
+Para grabar los scripts la configuracion que tengo en el vugen es la siguiente
+
+
+![image](https://github.com/user-attachments/assets/79057d92-5677-464d-b02e-6cd3befb4eb8)
+
+
+en esta pantalla aun se puede cambiar en que accion hacer la grabacion y seleccionar el browser que se necesita
+
+tambien seleccionar si es requerido en donde guardar los archivos 
+
+El vugen se comporta como un listener de todas las transacciones que suceden entre el cliente y el servidor es como si tomara nota de lo que estan hablando entre ellos 
+
+Recprdar que cuando esta grabando se pueden guardar comentarios de cada accion que hagamos para tener una mejor visualizacion de cada accion en el codigo
+
+
+
+
