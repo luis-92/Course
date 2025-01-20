@@ -38,6 +38,43 @@ El vugen se comporta como un listener de todas las transacciones que suceden ent
 
 Recprdar que cuando esta grabando se pueden guardar comentarios de cada accion que hagamos para tener una mejor visualizacion de cada accion en el codigo
 
+47
+Protocol Advisor
+esta opcon no esta dispomnible en todas las versiones y acutalmenteno se utuiliza tanto, pero sirve para cuando comenzamos a usar una app ponerlo a trabjaand y nos va a decir que protocol se suan y nos daria las mejores opciones para utilizar. Despues que el protocol advisonr termina de analizar te da un reporte de cuales protocolos fueron usados durante las interacciones del sscript
+entonces si tnemos problemas un dia podedmos revisar los protocols que menciona en su reporte y utilizar de uno en uno hasta que nos funcione
+Recordemos que el Vugen no grraba a nivel UI graba a nivel protocolo cada interaccion que se hace entre el servidor y el cliente la graba
+
+48
+en entre  transacciones siemppre hay think time  que esl el tiempo que toma el usuario real para hacer sus acciones 
+este tiempo esta capturado por el script siempre en las grabaciones 
+
+![image](https://github.com/user-attachments/assets/76a188b8-f469-42e2-b9d2-b8c0fcae1bb6)
+ese tiempo lo puedes modificar en el script a como se necesario
+
+
+es muy normal que una persona sea experta en un solo protocolo por que es tan complejo y tanta la informacion deun solo protocolo que funciona mas de esa manera
+
+para eviar cualquier problema de cache o cookies 
+generalmente los scripts siempre comienzan con tres funciones relacionadas a limpiar toos esos datos
+
+![image](https://github.com/user-attachments/assets/2fb2b24d-396b-423c-8a55-79f2fb8c7d9e)
+![image](https://github.com/user-attachments/assets/ab25a02a-bf99-43a3-a4b4-4a3df3f2977c)
+
+
+el atajo control space sirve para autocompletar las funciones
+
+todo se tiene que limpiar siempre antes de que se ejecute el scriot por eso se pone hassta arriba esas funciones
+
+
+
+
+
+
+
+
+
+
+
 
 
 
