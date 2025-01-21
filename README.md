@@ -65,8 +65,52 @@ el atajo control space sirve para autocompletar las funciones
 
 todo se tiene que limpiar siempre antes de que se ejecute el scriot por eso se pone hassta arriba esas funciones
 
+49-----------------------------
+en la parte del codigo donde el usuario se logea hay una seccion que menciona "userSSsion" 
+ seleccionamos el valor que esta a la derecca y lo correlacionamos 
+
+![image](https://github.com/user-attachments/assets/3fcafabb-4026-497f-a4d8-3fcadeff8074)
+
+agregeye las funciones para eliminar cookies y todo eso
 
 
+Para poder ver en tiempo real como es la ejecucion de un script y ver el browser tenemos que activar una iopcion
+
+es en tools
+options
+Y seleccionar  "Show run time viewer during replay"
+![image](https://github.com/user-attachments/assets/42f00b32-7435-4fcb-9029-f0bf0635ea93)
+ de esta manera podemos ver la ejecucion
+
+
+ En run logic puedes cmbiar el numero de iteraciones de cada parte del script 
+
+ Para llegar ahi es darle click en replay y luego runtime settings
+
+ ![image](https://github.com/user-attachments/assets/0709c133-74b9-4cf1-bd00-cd4d2057c35d)
+
+
+50-------------------------------------
+
+Run Time Settings
+
+La forma en la que estan organzadas las acciones en en panel izquierdo no importan realmente, lo que importa es el orden en el que estan organizadas en el runtime settings es ahi donde la logica esta configurada para correr una accion antes o despues que otra y tambien se definen el numero de iteraciones de cada accion
+
+
+![image](https://github.com/user-attachments/assets/27282ee2-bf2d-4d58-9434-f43b45a497a6)
+
+si se desea ejecutar una accion especifica dentro de otra accion mas de una vez, entones agregar bloques y de ahi se puede incrementar el numero de iteraciones
+
+![image](https://github.com/user-attachments/assets/a41f5eef-dcfa-42a4-914d-11be0468249b)
+
+
+ 
+Para que funciona el think time  se tiene que actualizar la condiguracion en runtime settings
+ en think time 
+por default esta en ignorar pero se tiene que cambiar al de la imagen
+ ![image](https://github.com/user-attachments/assets/51b80f72-34aa-4156-834e-b49e273f9724)
+
+ 
 
 
 
