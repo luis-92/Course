@@ -110,7 +110,11 @@ Para que funciona el think time  se tiene que actualizar la condiguracion en run
 por default esta en ignorar pero se tiene que cambiar al de la imagen
  ![image](https://github.com/user-attachments/assets/51b80f72-34aa-4156-834e-b49e273f9724)
 
- 
+51 ----------------------------
+Undesrating the code 
+expalining the lines 
+this is just a way to analyze the pprocess of the client to go to the server and get some informaton
+![image](https://github.com/user-attachments/assets/6b165550-bade-4f1f-947b-c0ea8020c065)
 
 
 
