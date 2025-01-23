@@ -116,6 +116,39 @@ expalining the lines
 this is just a way to analyze the pprocess of the client to go to the server and get some informaton
 ![image](https://github.com/user-attachments/assets/6b165550-bade-4f1f-947b-c0ea8020c065)
 
+52----------------------------------------
+
+Methods
+the function in the vugen "web_url("indext.htm......")" is a GET request this is a question interview
+for POST request in vugen we use web_submit_data
+![image](https://github.com/user-attachments/assets/be7e4a16-7f21-453a-b16d-6e39a2da0ac6)
+
+53-----------------------------------
+If I record in IE I can playback in google chrome you can set that in the runtime settings ni the section browser emulation
+en el user agent sitrng e puedee cambiar la version del browser
+![image](https://github.com/user-attachments/assets/64177b93-aab4-4179-9f7a-dc52913be1d8)
+
+En run time settings tambien se puede configurar el speed simulation
+
+![image](https://github.com/user-attachments/assets/1a4039b4-0bfd-45df-8de7-79a3e880050a)
+
+54-------------------------
+
+We dont have object identificantion in load runner
+so we identify everything with the comments  
+we can add comments like  "Correlation code pleae do not change"
+
+I we want to know is the performenc ok for an specific action we need to add in the code
+what we called
+transactions
+then we can capture the response times for aprticular block or functionality
+
+the code is the next:
+the parametrs are the name of the transaction
+lr_start_transaction("Login")
+and
+lr_end_transaction("Login", LR_AUTO)
+
 
 
 
