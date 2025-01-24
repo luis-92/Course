@@ -150,12 +150,121 @@ and
 lr_end_transaction("Login", LR_AUTO)
 
 
+![image](https://github.com/user-attachments/assets/f8f70e28-a8b0-4f4b-b333-23bef32c0b2a)
+
+After execute the login transaction we can see in the logs the time consumed
+
+
+![image](https://github.com/user-attachments/assets/c23bcd90-3161-42aa-987b-d2ada24da8f5)
+
+55---------------------------------------
+Play back with transactions
+load runner is case sensitive
+
+we need to follow specific format for the transactions in order to have a good tracking
+
+![image](https://github.com/user-attachments/assets/680f45af-be55-4e14-a29a-3fc8cbb578ec)
+
+56-------------------------------------
+
+Una pegunta de entrevista puede ser 
+Puedes borar la accion vuserinit? y la respuesta es que no se puede
+
+![image](https://github.com/user-attachments/assets/4800c51b-f153-4dc1-bf20-56d592a4ac75)
+
+
+Call Actions
+how to print in consoloe
+
+Lr_output_message();
+
+IMPORTANT
+Main action can be created and all the oterh actions will be called from this action
+es como usar funciones que llamen a otras funciones
+
+![image](https://github.com/user-attachments/assets/ba9f9bda-4e17-4faf-9897-f25c2a7e5332)
+
+
+![image](https://github.com/user-attachments/assets/48fc5552-9154-46e7-82b5-c42f6b5c1194)
+
+57====================================================
+difference between HTML based script nd URL based script
+usamos las deeloper tools para saber  los request que se mandan al server y lo que el server regresa
+
+![image](https://github.com/user-attachments/assets/2dded676-4a8a-42f3-8c19-f52a73f100c8)
+
+
+![image](https://github.com/user-attachments/assets/12c13e10-97b2-426d-a5c8-d0de64bd70dd)
+
+
+![image](https://github.com/user-attachments/assets/41a94481-03e3-4984-b96e-62e343d93a32)
+
+
+58----------------------------------------------------------------------
+
+SCRIPTs BASADOS en URL VS Scripts basados en HTML
+
+Si tuvieramos un script basado en URL entonces en las herramientas deld esarrollador solo veriamos urls en el nombre de los web resources donde se se;ala la imagen
+entonces enla coumna de name diria algo asi como
+
+web_requestzzzzzzzz
+web_requestxxxxxxxxxxxxxxxxxx
+**![image](https://github.com/user-attachments/assets/2fa2cdc0-adb7-4637-8f8b-babbea7e05c7)
+**
+
+para crear un script basado en url se tiene que configurar en el recording options
+
+![image](https://github.com/user-attachments/assets/deaf1972-9fe4-40dc-a919-d0c9c4c859fa)
+
+Claro, aquí tienes una versión más breve de la explicación:
+Script Basado en URL
+Cuándo usarlo:
+
+Aplicaciones Simples: Para aplicaciones web simples o estáticas.
+Pruebas de Carga Alta: Cuando se necesita simular muchos usuarios simultáneos.
+Pruebas de Red: Para probar el rendimiento de la red o el servidor sin interacciones complejas.
+Menor Complejidad: Para una configuración rápida y menos mantenimiento.
+
+Ventajas:
+
+Menor consumo de recursos.
+Más fácil de mantener y depurar.
+Adecuado para pruebas de carga masivas.
+
+Script Basado en HTML
+Cuándo usarlo:
+
+Aplicaciones Dinámicas: Para aplicaciones con muchas interacciones dinámicas.
+Pruebas de Experiencia del Usuario: Para simular el comportamiento real del usuario.
+Validación de Contenido: Para validar el contenido de las respuestas HTML.
+Interacciones Complejas: Para navegación compleja, formularios y autenticación.
+
+Ventajas:
+
+Simulación más realista del usuario.
+Manejo de interacciones dinámicas.
+Mejor para pruebas funcionales y de experiencia del usuario.
+
+Resumen
+
+URL: Ideal para aplicaciones simples y pruebas de carga alta.
+HTML: Mejor para aplicaciones dinámicas y pruebas detalladas de usuario.
+
+59------------------------------------------------------
+e reviso donde poner la funcion de transaccion en un scrit basado en url
+
+se pueden agregar funciones subtransaction para poder tomar el performance de cada subtransaccion dentro de una transaccion mas grande 
+
+![image](https://github.com/user-attachments/assets/fe70d7fa-d2e3-4a35-8028-ee133a35fbfc)
+
+
+asi e puede revisar cada recurso como se comporta y que rendimiento tiene
+
+en html no se puede hacer eso 
+
+Existe una herramienta que se llama http watch que es un complelmento para loadrunner donde se ve el trafico en tiempo real es como si usara la herramienta de desarolladores pero para loadrunner performance testers sipreguntn si lo he usado la respuesta puede ser que prefiero usar las developer tools
 
 
 
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/1371c4dd-710e-4fec-8b90-15d3f85292f4)
 
