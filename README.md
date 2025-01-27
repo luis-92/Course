@@ -264,13 +264,33 @@ en html no se puede hacer eso
 
 Existe una herramienta que se llama http watch que es un complelmento para loadrunner donde se ve el trafico en tiempo real es como si usara la herramienta de desarolladores pero para loadrunner performance testers sipreguntn si lo he usado la respuesta puede ser que prefiero usar las developer tools
 
-
-
 ![image](https://github.com/user-attachments/assets/1371c4dd-710e-4fec-8b90-15d3f85292f4)
 
+60----------------------------------
+Checkpoints
+a veces en el reporte aparece que el script paso pero en realidad no paso y eso lo tenemos que poner como un cehckpoint para que no nos de ese tipo de falsospositivos
+se pueden usar textos para hacer una especie de assertion se pueden parametrizar esos datos para tener un checkpoiint bien definido
+ por ejemplo se puede poner un texto que nidique que paso y usar otro que indique que fallo por ejemplo usar el response 404 como parametro de que fallo
+ necesitasss seleccionar un texto completo que si indique que ha pasado  o que ha fallado 
+
+ Load runner tiene forma de usar text checkpoint y tambien imagen checkpoint
+
+ con agregar un checkpoint podemos confirmar si el script paso o fallo
+
+ 61----------------------------------------------
+ TextCheckpoint  Part1 
+ la funciion par a usar el checkpoint es
+ Web_reg_find()
+ 
+![image](https://github.com/user-attachments/assets/efeeac7e-b084-4f32-ac10-2357cc5cf26a)
+
+
+para revisar con es que cada fragmento del script esta respondiendo podemos revisarlo en la opcion de snaposhot que esta hasta las herramientas de abajo
+sino esta a la vista entones agregarlo desde el panel superior derecho en view y seleccionar snapshot
 
 
 
+![image](https://github.com/user-attachments/assets/ecdaef04-de65-4960-92cf-55b4abdc4e38)
 
 
 
