@@ -286,24 +286,48 @@ se pueden usar textos para hacer una especie de assertion se pueden parametrizar
 
 
 para revisar con es que cada fragmento del script esta respondiendo podemos revisarlo en la opcion de snaposhot que esta hasta las herramientas de abajo
-sino esta a la vista entones agregarlo desde el panel superior derecho en view y seleccionar snapshot
-
-
+sino esta a la vista entones agregarlo desde el panel superior derecho en view y seleccionar snapshot le tienes que dar click en cualquier lugar dentro del request del script si le das fuera entonces no va a aparece nadda en el snapshot
 
 ![image](https://github.com/user-attachments/assets/ecdaef04-de65-4960-92cf-55b4abdc4e38)
 
+todos los recursos marcados en rojo son los mismos que se ven si se revisan las herramientas de desarollador
+![image](https://github.com/user-attachments/assets/023329f4-71a2-44ba-b6b8-9c33d700ff45)
 
 
+PAra hacer un Text checkpoint se tiene que buscar en la pagina en el panel de snapshot en recording y page view y luego darle seleccionar el texto que queremos usar de chekcpoint luego click derecho y configurar como queremos haer el checkpoint 
+![image](https://github.com/user-attachments/assets/1d658f0e-d1cd-4828-9d4c-7d6a4b02df9f)
 
 
+Recordad que se tiene que revisar en cada request en este caso hay tres request y tres responses  asi que en uno de esos se encuentra el texto que queremos usar de hceckpoint lo mismo aplica para las imagenes
+![image](https://github.com/user-attachments/assets/5e08140d-c502-4aa4-b298-e7fdf4444702)
+
+NOTA: parece que los datos que son obtenidos para cambiar la palabra de algun texto como el nombre del usuario no se puede usar como checkpoint junto con algun otras palabras por ejemplo "jojo, Welcome to the webtours" no se puede ser asi, se tiene que hacer un checkpoint para jojo y otro para welcome to the webtourse y asi si pasa esto aun necesito revisarlo con Angel
 
 
+NOTA: Es buena idea usar la funciona de regenerate cuando se omitio algo por error al crear el script y este hara una replica de todas las acciones del script original asi no se tiene que volver a hacer todo manualEn reording options se puede configurar antes te comenzar a grabar
+
+en RTS runtime settings  son aplicables solo para reproducir el script que ya esta grabado 
 
 
+Existe la opcion de que durante la grabacion del scriot se puyedan agregar los checkpoints
 
 
+y es esta
+![image](https://github.com/user-attachments/assets/3e15340a-83a4-4548-b0df-56be6ae14352)
 
 
+Lo negativo de usar esa opcione es que se agregan muchisimos checkpooints que son innecesarios
+
+
+63 Image checkpoints----------------------------
+Muy rara ez se usan pero se pueden usar
+la funciona se puede usar como web_image_check()
+
+todas las imagenes tienen o ALT atribute o SRC attribute e tiene que usar uno de esos dos para completar el checkpoint
+Para habilitar que los checpoints de imagenes funcionen tenemos que configurar en el RTS  acepten este tipo de checkpints como se muestra en la imagen
+
+![image](https://github.com/user-attachments/assets/673ca865-117f-4118-96d1-e9c9e806f568)
+ 
 
 
 
