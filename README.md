@@ -326,6 +326,8 @@ la funciona se puede usar como web_image_check()
 todas las imagenes tienen o ALT atribute o SRC attribute e tiene que usar uno de esos dos para completar el checkpoint
 Para habilitar que los checpoints de imagenes funcionen tenemos que configurar en el RTS  acepten este tipo de checkpints como se muestra en la imagen
 
+esto es pregunta de entrevista
+
 ![image](https://github.com/user-attachments/assets/673ca865-117f-4118-96d1-e9c9e806f568)
  
 
