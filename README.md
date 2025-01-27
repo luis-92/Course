@@ -329,7 +329,17 @@ Para habilitar que los checpoints de imagenes funcionen tenemos que configurar e
 esto es pregunta de entrevista
 
 ![image](https://github.com/user-attachments/assets/673ca865-117f-4118-96d1-e9c9e806f568)
+
  
+
+64 Redevous point -----------------------------------
+can we assing a script to 4 virtual users? --> No
+you can run with only one virtual user, but for multiple iterations but onluye one virtually user, en realidad lo que se hace es ejecutar un usuario y hacer un think time y despues otro usuario y asi sucesivamente 
+
+el rend point funciona para que todos los virtual user llegen a un punto definido y de ahi hagan una accion al mismo tiempo
+
+asi que para ejecutar una transaccion con muchos usuarios al mismo tiempo se comienza el script de manera que sea de uno en uno los cirtual users y que ed ahi que llegue al rend point donde todos van a ejecutar al mismo tiempo esa transaccion definida recordar que el script se carga al controller y es ahi donde se ejecutan mas de un husuario
+![image](https://github.com/user-attachments/assets/c1db40ee-5ff7-46a7-a21e-a1af80b51966)
 
 
 
