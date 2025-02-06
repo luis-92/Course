@@ -343,6 +343,7 @@ asi que para ejecutar una transaccion con muchos usuarios al mismo tiempo se com
 
 
 
+65 --------------------------------- C Functions
 
 
 
