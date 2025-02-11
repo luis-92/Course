@@ -341,9 +341,35 @@ el rend point funciona para que todos los virtual user llegen a un punto definid
 asi que para ejecutar una transaccion con muchos usuarios al mismo tiempo se comienza el script de manera que sea de uno en uno los cirtual users y que ed ahi que llegue al rend point donde todos van a ejecutar al mismo tiempo esa transaccion definida recordar que el script se carga al controller y es ahi donde se ejecutan mas de un husuario
 ![image](https://github.com/user-attachments/assets/c1db40ee-5ff7-46a7-a21e-a1af80b51966)
 
+80--------------------------------------------------------
+Parametrizacion
+
+Cada iteracion en la ejecucuon de un script representa a un usuario diferente lo que significa que cada iteracion debe tner un usuario y contrase;a diferente
+
+Para que cada iteracion tenga usuarios y contraselas diferentes usamos la parametrizacion
+
+en este proceso se crea un data set con todos los valores que tengan que usarse como unicos, ya sean usuarios y contrase;as o mas datos que ser equieran usar durante las pruebas del sistema
+
+y en la funcion de vugen solo lo ponemos entre llaves para asignarle un parametro el cual va a cambiar cada que sea nacesario 
+
+![image](https://github.com/user-attachments/assets/680974b9-ff01-4d07-a695-c2f7387dc3a6)
+
+81-------------------------------
+Where todo parametrization?
+in thw web tours platform we can use parametrization in different screens
 
 
-65 --------------------------------- C Functions
+![image](https://github.com/user-attachments/assets/e1135fa4-dc5a-4361-9d80-ad0647c9a978)
+
+Para pareametrizar abrir el scriot despues dar click en aprameters y click en nuevo 
+
+
+![image](https://github.com/user-attachments/assets/b71296c8-e979-41fb-9d98-db1dafe7c9b7)
+
+
+
+
+
 
 
 
