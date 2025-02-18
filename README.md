@@ -357,6 +357,7 @@ y en la funcion de vugen solo lo ponemos entre llaves para asignarle un parametr
 81-------------------------------
 Where todo parametrization?
 in thw web tours platform we can use parametrization in different screens
+por ejemplo si quieres usar diferentes numeros de telefonos diferentes direcciones de correo direcciones fisicas diferentes nombres, diferentes destions, diferentes nombres de areolineas etc et
 
 
 ![image](https://github.com/user-attachments/assets/e1135fa4-dc5a-4361-9d80-ad0647c9a978)
@@ -367,12 +368,18 @@ Para pareametrizar abrir el scriot despues dar click en aprameters y click en nu
 ![image](https://github.com/user-attachments/assets/b71296c8-e979-41fb-9d98-db1dafe7c9b7)
 
 
+Los parametros se agregan en donde se indica la imagen 
+![image](https://github.com/user-attachments/assets/fc61164e-d699-4543-ad7e-6d5951722a08)
 
 
 
 
+Despues click derecho y replace with parameter en la variable que quieras cambiar 
+![image](https://github.com/user-attachments/assets/80ed2c78-8ba8-429d-b54e-736823d84bf2)
 
 
+
+82----------------------------------------------Hoe to do Parametrization PArt2
 
 
 
